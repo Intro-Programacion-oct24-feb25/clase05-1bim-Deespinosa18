@@ -30,6 +30,8 @@ public class Ejemplo3 {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         } else {
+            //No utilizamos en el este condicional el or ya que nos cambia todo
+            //el programa ya que las tablas de verdades cambian.
             if ((promedio >= 5) && (promedio < 7.5)) {
                 System.out.printf("Estudiante en suspenso con un "
                         + "promedio: %.2f\n", promedio);
