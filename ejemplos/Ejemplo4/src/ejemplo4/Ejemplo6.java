@@ -31,7 +31,7 @@ public class Ejemplo6 {
         // caracter de la cadena
         // Si el valor de ciudad es 
         // "Loja" se obtiene "L"
-
+        //0-1 se obtiene L, su fuera 0-2 se obtiene Lo
         if ( inicial.equals("L") || inicial.equals("l")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {

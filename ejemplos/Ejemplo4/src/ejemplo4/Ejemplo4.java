@@ -25,6 +25,10 @@ public class Ejemplo4 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
         //F           or          //F         >>>>> F
+        // utilizamos el (nombre variable).equals exclusivo para cadena para
+        // hacer una comparacion con el condicional
+        // en cambio si utilizamos el and se necesito que los 3 sean verdaderos
+        // es decir los 3 se utilicen a la vez
         if (ciudad.equals("Loja") || ciudad.equals("Machala") || 
                 ciudad.equals("Guayaquil")) {
             System.out.printf("%s\n", "acceso correcto");

@@ -23,7 +23,8 @@ public class Ejemplo5 {
         entrada.useLocale(Locale.US);
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
-
+        //hacemos una negacion de igualdad, en este caso acceso correcto es todo
+        //menos loja.
         if (!ciudad.equals("Loja")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
@@ -31,7 +32,7 @@ public class Ejemplo5 {
         }
 
         int numero = 10;
-
+        // negacion valores numericos
         if (numero != 10) {
             System.out.println("correcto");
         }

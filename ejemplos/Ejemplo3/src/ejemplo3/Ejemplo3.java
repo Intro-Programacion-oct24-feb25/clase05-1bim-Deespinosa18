@@ -23,7 +23,7 @@ public class Ejemplo3 {
         // >= 7.5 Aprobado
         // >= 5 and < 7.5 Suspenso
         // >= 3 and < 5 Recuperación
-        // < 3 Reprobado
+        // < 3 Reprobado    
         double promedio = 2;
 
         if (promedio >= 7.5) {
